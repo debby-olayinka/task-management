@@ -1,0 +1,11 @@
+[project]
+name = "TM"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.task-mngt]
+path = "contracts/task-mngt.clar"
+depends_on = []
